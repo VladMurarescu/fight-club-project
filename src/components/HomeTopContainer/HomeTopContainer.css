@@ -1,1 +1,109 @@
-/* No CSS *//*# sourceMappingURL=HomeTopContainer.css.map */
+.home-top-container {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.2))), url("./homeImg.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("./homeImg.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+}
+
+.home-top-container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 50px;
+}
+
+.home-top-container .content-container h1 {
+  color: #ddedf4;
+  font-size: 2.5rem;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-top-container .content-container h3 {
+  color: #b7c4ca;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 771px) {
+  .home-top-container .content-container h1 {
+    font-size: 2rem;
+  }
+  .home-top-container .content-container h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-top-container .content-container h1 {
+    font-size: 1.8rem;
+  }
+  .home-top-container .content-container h3 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .home-top-container .content-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.home-top-container .content-container .home-button {
+  width: 120px;
+  height: 45px;
+  background-color: #c72c2c;
+  color: #ddedf4;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.home-top-container .content-container .home-button:hover {
+  background-color: #e12a2a;
+}
+
+@media screen and (max-width: 491px) {
+  .home-top-container .content-container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=HomeTopContainer.css.map */

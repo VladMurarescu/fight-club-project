@@ -25,13 +25,13 @@ const Footer = () => {
       <div className="nav-social-icons">
         <h4>Social media</h4>
         <div className="icons">
-          <a className="icon">
+          <a href="https://www.facebook.com/" className="icon">
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a className="icon">
+          <a href="https://www.instagram.com/" className="icon">
             <i class="fab fa-instagram-square"></i>
           </a>
-          <a className="icon">
+          <a href="https://twitter.com/" className="icon">
             <i class="fab fa-twitter-square"></i>
           </a>
         </div>

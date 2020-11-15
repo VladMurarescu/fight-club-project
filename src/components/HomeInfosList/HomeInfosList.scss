@@ -1,0 +1,10 @@
+.infos-list-container {
+  width: 100%;
+  // background-color: bisque;
+  min-height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  align-items: flex-start;
+}

@@ -48,7 +48,7 @@ nav ul li .a {
 }
 
 nav ul li .a:hover {
-  color: $mainColor;
+  color: $secondColor;
   background-color: $contrastColor;
 }
 nav .menu-btn i {
@@ -62,7 +62,7 @@ input[type="checkbox"] {
 }
 @media (max-width: 1200px) {
   nav {
-    padding: 0 20px 0 50px;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -108,7 +108,7 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 1088px) {
+@media (max-width: 1100px) {
   nav {
     padding: 0 30px 0 30px;
   }

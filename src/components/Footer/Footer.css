@@ -13,6 +13,8 @@ footer {
   padding: 30px 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  letter-spacing: 1px;
+  line-height: 140%;
 }
 
 footer .nav-col {

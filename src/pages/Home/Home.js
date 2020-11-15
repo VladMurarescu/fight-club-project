@@ -1,14 +1,14 @@
 import React from "react";
 import "./Home.css";
 import Wrapper from "../../components/Wrapper/Wrapper";
-import HomeTopContainer from "../../components/HomeTopContainer/HomeTopContainer";
 import HomeInfosList from "../../components/HomeInfosList/HomeInfosList";
 import Title from "../../components/Title/Title";
+import HomeTopContainer from "../../components/HomeTopContainer/HomeTopContainer";
 const Home = () => {
   return (
     <Wrapper>
       <HomeTopContainer />
-      <Title />
+      <Title title="ce vei găsi la noi" />
       <HomeInfosList />
     </Wrapper>
   );

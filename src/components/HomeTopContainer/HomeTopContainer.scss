@@ -1,0 +1,89 @@
+@import "../../variables";
+
+.home-top-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./homeImg.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 50px;
+    h1 {
+      color: $secondColor;
+      font-size: 2.5rem;
+      margin: 10px 0;
+      font-family: $titleFont;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    h3 {
+      color: $textSecondColor;
+      font-size: 1.3rem;
+      font-family: $normalFont;
+      letter-spacing: 1px;
+      line-height: 140%;
+    }
+    @media screen and (max-width: 771px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+    }
+    @media screen and (max-width: 350px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      h3 {
+        font-size: 0.7rem;
+      }
+    }
+    @media screen and (max-width: 327px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .home-button {
+      width: 120px;
+      height: 45px;
+      background-color: $contrastColor;
+      color: $secondColor;
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      font-family: $titleFont;
+      letter-spacing: 1px;
+      &:hover {
+        background-color: $secondContrastColor;
+      }
+    }
+  }
+  @media screen and (max-width: 491px) {
+    .content-container {
+      width: 100%;
+    }
+  }
+}
