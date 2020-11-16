@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=SubscriptionsList.css.map */
+.subscriptions-list {
+  width: 100%;
+  min-height: 400px;
+  padding: 50px 0px 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 410px) {
+  .subscriptions-list {
+    padding: 50px 0px 50px 20px;
+  }
+}
+/*# sourceMappingURL=SubscriptionsList.css.map */

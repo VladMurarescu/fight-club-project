@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.subscriptions-list {
+  width: 100%;
+  min-height: 400px;
+  // background-color: aquamarine;
+  padding: 50px 0px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 410px) {
+  .subscriptions-list {
+    padding: 50px 0px 50px 20px;
+  }
+}

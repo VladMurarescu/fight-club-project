@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AAAA,mBAAmB,CAAC;EAElB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,gBAAgB;CAC1B;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,mBAAmB,CAAC;IAClB,OAAO,EAAE,gBAAgB;GAC1B",
     "sources": [
-        "SubscriptionImagesList.scss"
+        "SubscriptionImagesList.scss",
+        "../../_variables.scss"
     ],
     "names": [],
     "file": "SubscriptionImagesList.css"

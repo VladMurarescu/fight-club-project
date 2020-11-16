@@ -9,7 +9,7 @@ const Subscriptions = () => {
   return (
     <Wrapper>
       <SubscriptionsTopContainer />
-      <Title />
+      <Title title="Abonamentele din care poți alege" />
       <SubscriptionsFilters />
       <SubscriptionsList />
     </Wrapper>

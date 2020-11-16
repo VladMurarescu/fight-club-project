@@ -9,7 +9,7 @@ const Trainers = () => {
   return (
     <Wrapper>
       <TrainersTopContainer />
-      <Title />
+      <Title title="antrenorii care te vor ajuta să reușești" />
       <TrainersFilters />
       <TrainersList />
     </Wrapper>

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AAAA,wBAAwB,CAAC;EAEvB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,mBAAmB;EAC5B,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACpB;;AACD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,wBAAwB,CAAC;IACvB,OAAO,EAAE,mBAAmB;GAC7B",
     "sources": [
-        "TrainersList.scss"
+        "TrainersList.scss",
+        "../../_variables.scss"
     ],
     "names": [],
     "file": "TrainersList.css"

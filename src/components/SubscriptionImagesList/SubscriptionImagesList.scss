@@ -1,0 +1,16 @@
+@import "../../variables";
+.img-list-container {
+  //   background-color: red;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
+}
+@media screen and (max-width: 410px) {
+  .img-list-container {
+    padding: 0 50px 50px 20px;
+  }
+}

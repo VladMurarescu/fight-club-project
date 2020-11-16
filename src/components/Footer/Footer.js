@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Wrapper from "../Wrapper/Wrapper";
+
 const Footer = () => {
   return (
     <footer>
@@ -26,13 +26,13 @@ const Footer = () => {
         <h4>Social media</h4>
         <div className="icons">
           <a href="https://www.facebook.com/" className="icon">
-            <i class="fab fa-facebook-square"></i>
+            <i className="fab fa-facebook-square"></i>
           </a>
           <a href="https://www.instagram.com/" className="icon">
-            <i class="fab fa-instagram-square"></i>
+            <i className="fab fa-instagram-square"></i>
           </a>
           <a href="https://twitter.com/" className="icon">
-            <i class="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter-square"></i>
           </a>
         </div>
       </div>

@@ -1,1 +1,59 @@
-/* No CSS *//*# sourceMappingURL=ErroComponent.css.map */
+.eror-componont {
+  width: 100%;
+  height: 400px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eror-componont h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #212221;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 346px) {
+  .eror-componont h1 {
+    font-size: 2rem;
+  }
+}
+
+.eror-componont .error-btn {
+  width: 130px;
+  height: 45px;
+  background-color: #c72c2c;
+  color: #ddedf4;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.eror-componont .error-btn:hover {
+  background-color: #e12a2a;
+}
+/*# sourceMappingURL=ErroComponent.css.map */

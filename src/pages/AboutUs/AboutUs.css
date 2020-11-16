@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=AboutUs.css.map */
+.about-us-container {
+  width: 100%;
+  min-height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  letter-spacing: 1px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-us-container h3 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-us-container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.about-us-container .container-section {
+  min-width: 250px;
+  width: 42%;
+  min-height: 350px;
+  margin: 50px;
+}
+
+.about-us-container .list {
+  padding-left: 20%;
+}
+
+.about-us-container img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-us-container img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .about-us-container .list {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=AboutUs.css.map */

@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeInfoCard.css";
-import Img from "./infoImg.jpg";
+
 const HomeInfoCard = (props) => {
   return (
     <div className="info-card-container">

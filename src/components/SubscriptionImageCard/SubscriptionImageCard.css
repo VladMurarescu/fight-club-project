@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=SubscriptionImageCard.css.map */
+.image-card {
+  width: 280px;
+  min-width: 170px;
+  height: 280px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 7px 1px gray;
+          box-shadow: 0 4px 7px 1px gray;
+}
+
+.image-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+/*# sourceMappingURL=SubscriptionImageCard.css.map */

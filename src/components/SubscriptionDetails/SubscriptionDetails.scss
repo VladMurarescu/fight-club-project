@@ -1,0 +1,54 @@
+@import "../../variables";
+
+.subscription-details-container {
+  width: 100%;
+  min-height: 800px;
+  letter-spacing: 1px;
+  //   background-color: bisque;
+  .subscription-img-container {
+    width: 100%;
+    height: 400px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h3 {
+    font-family: $titleFont;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-family: $normalFont;
+    line-height: 140%;
+    font-size: 20px;
+  }
+  .subscription-info-container {
+    width: 100%;
+    min-height: 200px;
+    // background-color: beige;
+    padding: 0 50px 50px 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .left-info {
+      // background-color: red;
+      width: 40%;
+      min-width: 220px;
+      min-height: 200px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .right-info {
+      //   background-color: blue;
+      width: 55%;
+      min-width: 220px;
+      min-height: 200px;
+    }
+  }
+  @media screen and (max-width: 410px) {
+    .subscription-info-container {
+      padding: 0 50px 50px 20px;
+    }
+  }
+}

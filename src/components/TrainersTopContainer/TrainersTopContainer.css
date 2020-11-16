@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=TrainersTopContainer.css.map */
+.trainers-top-container {
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("trainersImg.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("trainersImg.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ddedf4;
+  padding: 0 50px;
+}
+
+.trainers-top-container h1 {
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@media screen and (max-width: 538px) {
+  .trainers-top-container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .trainers-top-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .trainers-top-container h1 {
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=TrainersTopContainer.css.map */

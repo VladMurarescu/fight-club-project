@@ -1,0 +1,137 @@
+@import "../../variables";
+
+.subscriptions-filters-container {
+  width: 100%;
+  // background-color: bisque;
+  min-height: 150px;
+
+  .subscription-form-group {
+    // background-color: red;
+    padding-left: 50px;
+    width: 100%;
+    min-width: 300px;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    label {
+      font-family: $titleFont;
+      font-size: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .subscription-search {
+      // background-color: blue;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      min-width: 210px;
+      min-height: 100px;
+      padding-bottom: 20px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+      .search-input {
+        display: flex;
+        align-items: flex-start;
+        input {
+          width: 150px;
+          height: 30px;
+          border: none;
+          font-family: $normalFont;
+          font-size: 12px;
+          letter-spacing: 1px;
+          outline: none;
+          border: 1px solid grey;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+          padding-left: 5px;
+        }
+
+        span {
+          height: 30px;
+          width: 40px;
+          background-color: $contrastColor;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border: 1px solid $contrastColor;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+          &:hover {
+            background-color: $secondContrastColor;
+            border: 1px solid $secondContrastColor;
+          }
+          .search-icon {
+            font-size: 17px;
+            color: $secondColor;
+          }
+        }
+      }
+    }
+
+    .subscription-category {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      min-width: 210px;
+      min-height: 100px;
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+      // background-color: yellow;
+      select {
+        width: 150px;
+        height: 30px;
+        border: none;
+        font-family: $normalFont;
+        font-size: 12px;
+        letter-spacing: 1px;
+        outline: none;
+        border: 1px solid grey;
+        box-shadow: 0 0.5px 0.5px 0.5px gray;
+        padding-left: 5px;
+      }
+    }
+    .subscription-period {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      min-width: 210px;
+      min-height: 100px;
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+      // background-color: yellow;
+      select {
+        width: 150px;
+        height: 30px;
+        border: none;
+        font-family: $normalFont;
+        font-size: 12px;
+        letter-spacing: 1px;
+        outline: none;
+        border: 1px solid grey;
+        box-shadow: 0 0.5px 0.5px 0.5px gray;
+        padding-left: 5px;
+      }
+    }
+    .subscription-price {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      min-width: 210px;
+      min-height: 100px;
+      padding-bottom: 20px;
+      margin-bottom: 50px;
+      .price-input {
+        width: 120px;
+      }
+    }
+  }
+  @media screen and (max-width: 410px) {
+    .subscription-form-group {
+      padding-left: 20px;
+    }
+  }
+}

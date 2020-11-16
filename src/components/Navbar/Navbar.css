@@ -176,4 +176,10 @@ input[type="checkbox"] {
     color: #c72c2c;
   }
 }
+
+@media screen and (max-width: 410px) {
+  nav {
+    padding: 0 30px 0 20px;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

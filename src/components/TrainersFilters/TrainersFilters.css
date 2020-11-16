@@ -1,1 +1,133 @@
-/* No CSS *//*# sourceMappingURL=TrainersFilters.css.map */
+.trainers-filters-container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.form-group {
+  padding-left: 50px;
+  width: 100%;
+  min-width: 300px;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-group label {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.form-group .trainer-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 210px;
+  min-height: 100px;
+  padding-bottom: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.form-group .trainer-search .search-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form-group .trainer-search .search-input input {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid grey;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+  padding-left: 5px;
+}
+
+.form-group .trainer-search .search-input span {
+  height: 30px;
+  width: 40px;
+  background-color: #c72c2c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border: 1px solid #c72c2c;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+}
+
+.form-group .trainer-search .search-input span:hover {
+  background-color: #e12a2a;
+  border: 1px solid #e12a2a;
+}
+
+.form-group .trainer-search .search-input span .search-icon {
+  font-size: 17px;
+  color: #ddedf4;
+}
+
+.form-group .trainer-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 210px;
+  min-height: 100px;
+  padding-bottom: 20px;
+}
+
+.form-group .trainer-category select {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid grey;
+  -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
+          box-shadow: 0 0.5px 0.5px 0.5px gray;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=TrainersFilters.css.map */

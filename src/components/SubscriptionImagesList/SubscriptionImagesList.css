@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=SubscriptionImagesList.css.map */
+.img-list-container {
+  width: 100%;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
+}
+
+@media screen and (max-width: 410px) {
+  .img-list-container {
+    padding: 0 50px 50px 20px;
+  }
+}
+/*# sourceMappingURL=SubscriptionImagesList.css.map */

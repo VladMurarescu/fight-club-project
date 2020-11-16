@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=TrainersList.css.map */
+.trainers-list-container {
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 30px 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 410px) {
+  .trainers-list-container {
+    padding: 50px 30px 50px 20px;
+  }
+}
+/*# sourceMappingURL=TrainersList.css.map */

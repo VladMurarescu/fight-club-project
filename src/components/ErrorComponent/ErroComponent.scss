@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.eror-componont {
+  //   background-color: blue;
+  width: 100%;
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $titleFont;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: $mainColor;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 346px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  .error-btn {
+    width: 130px;
+    height: 45px;
+    background-color: $contrastColor;
+    color: $secondColor;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $normalFont;
+    font-size: 13px;
+    letter-spacing: 1px;
+    &:hover {
+      background-color: $secondContrastColor;
+    }
+  }
+}

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CAYpB;;AAjBD,AAOE,WAPS,CAOT,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,kBAAkB;CAC/B;;AAZH,AAaE,WAbS,AAaR,MAAM,CAAC;EACN,SAAS,EAAE,UAAU;EACrB,UAAU,EAAE,cAAc;CAC3B",
     "sources": [
-        "SubscriptionImageCard.scss"
+        "SubscriptionImageCard.scss",
+        "../../_variables.scss"
     ],
     "names": [],
     "file": "SubscriptionImageCard.css"
