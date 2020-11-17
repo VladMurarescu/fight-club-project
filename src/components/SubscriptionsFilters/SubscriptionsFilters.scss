@@ -2,11 +2,9 @@
 
 .subscriptions-filters-container {
   width: 100%;
-  // background-color: bisque;
   min-height: 150px;
 
   .subscription-form-group {
-    // background-color: red;
     padding-left: 50px;
     width: 100%;
     min-width: 300px;
@@ -21,7 +19,6 @@
       text-transform: uppercase;
     }
     .subscription-search {
-      // background-color: blue;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
@@ -79,7 +76,6 @@
       min-height: 100px;
       padding-bottom: 20px;
       margin-bottom: 50px;
-      // background-color: yellow;
       select {
         width: 150px;
         height: 30px;
@@ -102,7 +98,6 @@
       min-height: 100px;
       padding-bottom: 20px;
       margin-bottom: 50px;
-      // background-color: yellow;
       select {
         width: 150px;
         height: 30px;

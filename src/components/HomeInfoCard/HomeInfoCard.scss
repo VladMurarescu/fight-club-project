@@ -2,21 +2,16 @@
 .info-card-container {
   min-width: 200px;
   max-width: 340px;
-  //   background-color: aquamarine;
   min-height: 200px;
   display: flex;
 
   justify-content: space-around;
-  // margin: 20px 0 30px;
-  //   border: 2px solid rgb(199, 198, 198);
   box-shadow: 0 4px 7px 1px gray;
   margin-right: 20px;
   margin-bottom: 20px;
   line-height: 140%;
-  // flex-wrap: wrap;
 
   .info-card-img {
-    // background-color: red;
     width: 180px;
     height: 200px;
     img {
@@ -25,7 +20,6 @@
     }
   }
   .info-card-desc {
-    // background-color: antiquewhite;
     width: 220px;
     height: 200px;
     display: flex;

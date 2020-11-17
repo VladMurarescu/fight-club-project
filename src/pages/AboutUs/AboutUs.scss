@@ -1,6 +1,5 @@
 @import "../../variables";
 .about-us-container {
-  //   background-color: bisque;
   width: 100%;
   min-height: 750px;
   display: flex;
@@ -30,12 +29,10 @@
     min-width: 200px;
     width: 42%;
     min-height: 200px;
-    // background-color: red;
     margin: 50px;
   }
   .list {
     padding-left: 20%;
-    // background-color: red;
   }
   img {
     width: 90%;
