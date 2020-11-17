@@ -19,6 +19,7 @@ footer {
 
 footer .nav-col {
   width: 370px;
+  min-width: 100px;
   margin-right: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,5 +77,11 @@ footer .nav-social-icons .icons .icon:hover {
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+@media screen and (max-width: 410px) {
+  footer {
+    padding: 30px 20px;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

@@ -9,49 +9,48 @@ const AboutUs = () => {
       <Title title="un proiect de viitor" />
       <div className="about-us-container">
         <div className="container-section">
-          <h3>title section</h3>
+          <h3>Onoare, disciplină și respect</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            magni veritatis exercitationem accusamus facere, obcaecati
-            consectetur ipsa quis ipsum quo iste consequatur sit voluptatibus et
-            quia aliquam perspiciatis incidunt, dolores labore earum numquam!
-            Porro libero inventore nulla, doloremque accusamus autem dolorem.
-            Vel, reprehenderit esse numquam nesciunt nam dolorem est quia?
+            Muri Fight Academy pleacă de la un concept prin care poţi obţine
+            deconectare de la stresul zilnic, atât prin exerciţii, o nutriţie
+            adecvată dar şi o socializare mai puternică. Fie că aveţi nevoie
+            pentru a pierde în greutate, modelare sau remodelare a masei
+            musculare, reducerea stresului, îmbunatăţirea performanţei sportive
+            Clubul Sportiv Ciprian Sora este locul in care vă puteţi atinge
+            obiectivul!
           </p>
         </div>
         <div className="container-section list">
-          <h3>Title section</h3>
+          <h3>Principiile academiei noastre</h3>
           <ul>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Profesionalism</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Seriozitate</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Muncă</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Suport</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Ambiție</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Sacrificiu</p>
             </li>
             <li>
-              <p>- sdddsadasd</p>
+              <p>- Dăruire</p>
             </li>
           </ul>
         </div>
         <div className="container-section ">
-          <h3>Section title</h3>
+          <h3>Vârsta nu a fost, nu este și nu va fi niciodată un impediment</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            magni veritatis exercitationem accusamus facere, obcaecati
-            consectetur ipsa quis ipsum quo iste consequatur sit voluptatibus et
-            quia aliquam perspiciatis incidunt,
+            SPORTUL NU ARE VÂRSTĂ! TOT CE AI NEVOIE PENTRU A-ŢI IMBUNĂTĂŢI
+            CALITATEA VIEŢII SE AFLĂ AICI! HAIDEŢI SĂ FACEM SPORT IMPREUNĂ!
           </p>
         </div>
       </div>

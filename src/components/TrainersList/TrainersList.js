@@ -4,14 +4,14 @@ import TrainerCard from "../TrainerCard/TrainerCard";
 import LoadingComponent from "../LoadingComponent/LoadingComoponent";
 import { TrainerContext } from "../../contexts/trainerContext";
 const TrainersList = () => {
-  const { trainers, loadingTrainers } = useContext(TrainerContext);
+  const { filteredTrainers, loadingTrainers } = useContext(TrainerContext);
 
   if (loadingTrainers) {
     return <LoadingComponent />;
   }
   return (
     <div className="trainers-list-container">
-      {trainers.map((trainer) => {
+      {filteredTrainers.map((trainer) => {
         return (
           <TrainerCard
             key={trainer.id}

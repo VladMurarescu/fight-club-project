@@ -3,7 +3,7 @@ import "./TrainersTopContainer.css";
 const TrainersTopContainer = () => {
   return (
     <div className="trainers-top-container">
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+      <h1>Experiența antrenorilor își va spune cuvântul in evoluția ta.</h1>
     </div>
   );
 };

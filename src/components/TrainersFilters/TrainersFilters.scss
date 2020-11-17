@@ -48,7 +48,7 @@
         padding-left: 5px;
       }
 
-      span {
+      button {
         height: 30px;
         width: 40px;
         background-color: $contrastColor;
@@ -91,5 +91,10 @@
       box-shadow: 0 0.5px 0.5px 0.5px gray;
       padding-left: 5px;
     }
+  }
+}
+@media screen and (max-width: 410px) {
+  .form-group {
+    padding-left: 20px;
   }
 }

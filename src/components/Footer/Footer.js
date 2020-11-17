@@ -15,11 +15,8 @@ const Footer = () => {
       <div className="nav-col">
         <h4>Locatie</h4>
         <ul>
-          <li>Adresă: Lorem ipsum dolor sit amet consectetur.</li>
-          <li>
-            Indicații: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium nemo nostrum!
-          </li>
+          <li>Adresă: Strada Gării nr4 Suceava</li>
+          <li>Indicații: In spatele complexului Test S.R.L de lângă gară.</li>
         </ul>
       </div>
       <div className="nav-social-icons">

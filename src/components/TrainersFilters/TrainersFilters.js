@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./TrainersFilters.css";
+import { TrainerContext } from "../../contexts/trainerContext";
+const getUnique = (items, value) => {
+  return [...new Set(items.map((item) => item[value]))];
+};
 const TrainersFilters = () => {
+  const {
+    trainers,
+    trainerSearch,
+    handleChangeTrainerInput,
+    handleSubmitTrainerInput,
+    filteredTrainers,
+    handleChangeFilter,
+  } = useContext(TrainerContext);
+
+  let tempTrainersCategory = getUnique(trainers, "category");
+
+  tempTrainersCategory = ["Selectează...", "All", ...tempTrainersCategory];
+  console.log("categorii de cursuri -> ", tempTrainersCategory);
+
+  tempTrainersCategory = tempTrainersCategory.map((item, index) => {
+    return (
+      <option value={item} key={index}>
+        {item}
+      </option>
+    );
+  });
   return (
     <div className="trainers-filters-container">
       <form className="form-group">
@@ -12,18 +37,22 @@ const TrainersFilters = () => {
               id="trainerInput"
               name="trainerSearch"
               placeholder="Introduceti numele"
+              onChange={handleChangeTrainerInput}
+              value={trainerSearch}
             />
-            <span>
+            <button onClick={handleSubmitTrainerInput}>
               <i className="search-icon fas fa-search"></i>
-            </span>
+            </button>
           </div>
         </div>
         <div className="trainer-category">
           <label htmlFor="trainerSelect">Categorie</label>
-          <select name="trainerCategory" id="trainerSelect">
-            <option value="1"> optiune 1</option>
-            <option value="2">optiune 2</option>
-            <option value="3">optiune 3</option>
+          <select
+            name="trainerCategory"
+            id="trainerSelect"
+            onChange={handleChangeFilter}
+          >
+            {tempTrainersCategory}
           </select>
         </div>
       </form>

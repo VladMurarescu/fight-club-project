@@ -41,12 +41,13 @@
 }
 
 .info-card-container .info-card-desc h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
 }
 
 .info-card-container .info-card-desc p {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 480px) {
