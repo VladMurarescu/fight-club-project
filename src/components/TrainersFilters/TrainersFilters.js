@@ -10,14 +10,13 @@ const TrainersFilters = () => {
     trainerSearch,
     handleChangeTrainerInput,
     handleSubmitTrainerInput,
-    filteredTrainers,
+    trainerCategory,
     handleChangeFilter,
   } = useContext(TrainerContext);
 
   let tempTrainersCategory = getUnique(trainers, "category");
 
   tempTrainersCategory = ["Selectează...", "All", ...tempTrainersCategory];
-  console.log("categorii de cursuri -> ", tempTrainersCategory);
 
   tempTrainersCategory = tempTrainersCategory.map((item, index) => {
     return (
@@ -51,6 +50,7 @@ const TrainersFilters = () => {
             name="trainerCategory"
             id="trainerSelect"
             onChange={handleChangeFilter}
+            value={trainerCategory}
           >
             {tempTrainersCategory}
           </select>

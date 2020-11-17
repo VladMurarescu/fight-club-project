@@ -4,7 +4,7 @@ import SubscriptionCard from "../SubscriptionCard/SubscriptionCard";
 import LoadingComponent from "../LoadingComponent/LoadingComoponent";
 import { SubscriptionContext } from "../../contexts/subscriptionContext";
 const SubscriptionsList = () => {
-  const { subscriptions, loadingSubscriptions } = useContext(
+  const { filteredSubscriptions, loadingSubscriptions } = useContext(
     SubscriptionContext
   );
   if (loadingSubscriptions) {
@@ -12,7 +12,7 @@ const SubscriptionsList = () => {
   }
   return (
     <div className="subscriptions-list">
-      {subscriptions.map((subscription) => {
+      {filteredSubscriptions.map((subscription) => {
         return (
           <SubscriptionCard
             name={subscription.name}

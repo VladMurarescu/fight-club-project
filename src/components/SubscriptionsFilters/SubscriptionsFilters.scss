@@ -47,13 +47,14 @@
           padding-left: 5px;
         }
 
-        span {
+        button {
           height: 30px;
           width: 40px;
           background-color: $contrastColor;
           display: flex;
           justify-content: center;
           align-items: center;
+          outline: none;
           cursor: pointer;
           border: 1px solid $contrastColor;
           box-shadow: 0 0.5px 0.5px 0.5px gray;
@@ -126,6 +127,7 @@
       margin-bottom: 50px;
       .price-input {
         width: 120px;
+        cursor: pointer;
       }
     }
   }

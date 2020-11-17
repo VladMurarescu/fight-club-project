@@ -69,7 +69,7 @@
   padding-left: 5px;
 }
 
-.subscriptions-filters-container .subscription-form-group .subscription-search .search-input span {
+.subscriptions-filters-container .subscription-form-group .subscription-search .search-input button {
   height: 30px;
   width: 40px;
   background-color: #c72c2c;
@@ -82,18 +82,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  outline: none;
   cursor: pointer;
   border: 1px solid #c72c2c;
   -webkit-box-shadow: 0 0.5px 0.5px 0.5px gray;
           box-shadow: 0 0.5px 0.5px 0.5px gray;
 }
 
-.subscriptions-filters-container .subscription-form-group .subscription-search .search-input span:hover {
+.subscriptions-filters-container .subscription-form-group .subscription-search .search-input button:hover {
   background-color: #e12a2a;
   border: 1px solid #e12a2a;
 }
 
-.subscriptions-filters-container .subscription-form-group .subscription-search .search-input span .search-icon {
+.subscriptions-filters-container .subscription-form-group .subscription-search .search-input button .search-icon {
   font-size: 17px;
   color: #ddedf4;
 }
@@ -188,6 +189,7 @@
 
 .subscriptions-filters-container .subscription-form-group .subscription-price .price-input {
   width: 120px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 410px) {
